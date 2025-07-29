@@ -1,4 +1,4 @@
-# Azure Form Recognizer Custom Template 3.1 容器部署指南
+# 🌀Azure Form Recognizer Custom Template 3.1 容器部署指南
 
 本指南將說明如何下載、確認和啟動 Azure Cognitive Services Form Recognizer Custom Template 3.1 容器映像。
 
