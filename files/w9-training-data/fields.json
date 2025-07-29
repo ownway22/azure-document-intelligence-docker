@@ -1,0 +1,96 @@
+{
+    "$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/fields.json",
+    "fields": [
+        {
+            "fieldKey": "Name",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "BusinessName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyIndividual",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyCCorp",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifySCorp",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyPartnership",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyTrust",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyLLC",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "LLC_Classification",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxClassifyOther",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ExemptPayeeCode",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FATCA_Code",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Address",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "CityStateZip",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "RequesterNameAddress",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AccountNumbers",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SSN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "EIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        }
+    ],
+    "definitions": {}
+}

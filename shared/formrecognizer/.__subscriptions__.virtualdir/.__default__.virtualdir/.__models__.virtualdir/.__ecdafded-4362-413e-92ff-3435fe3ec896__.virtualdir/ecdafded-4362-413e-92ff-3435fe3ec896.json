@@ -1,0 +1,539 @@
+{
+  "docTypes": {
+    "my-first-model-0629": {
+      "fieldSchema": {
+        "FirstName": {
+          "type": "string"
+        },
+        "LastName": {
+          "type": "string"
+        },
+        "SSN": {
+          "type": "number"
+        },
+        "SpouseFirstName": {
+          "type": "string"
+        },
+        "SpouseLastName": {
+          "type": "string"
+        },
+        "SpouseSSN": {
+          "type": "number"
+        },
+        "FilingStatusSingle": {
+          "type": "selectionMark"
+        },
+        "FilingStatusMarriedJoint": {
+          "type": "selectionMark"
+        },
+        "FilingStatusMFS": {
+          "type": "selectionMark"
+        },
+        "FilingStatusHOH": {
+          "type": "selectionMark"
+        },
+        "FilingStatsQW": {
+          "type": "selectionMark"
+        },
+        "FilingStatusNames": {
+          "type": "string"
+        },
+        "Address": {
+          "type": "string"
+        },
+        "AptNo": {
+          "type": "string"
+        },
+        "City": {
+          "type": "string"
+        },
+        "State": {
+          "type": "string"
+        },
+        "ZIP": {
+          "type": "string"
+        },
+        "ForeignCountry": {
+          "type": "string"
+        },
+        "ForeignProvince": {
+          "type": "string"
+        },
+        "ForeignPostal": {
+          "type": "number"
+        },
+        "PresidentialElectionCampaignYou": {
+          "type": "selectionMark"
+        },
+        "PresidentialElectionCampaignSpouse": {
+          "type": "selectionMark"
+        },
+        "FinancialInterestYes": {
+          "type": "selectionMark"
+        },
+        "FinancialInterestNo": {
+          "type": "selectionMark"
+        },
+        "StandardDeductionSelf": {
+          "type": "selectionMark"
+        },
+        "StandardDeductionSpouse": {
+          "type": "selectionMark"
+        },
+        "StandardDeductionOther": {
+          "type": "selectionMark"
+        },
+        "BornBefore": {
+          "type": "selectionMark"
+        },
+        "Blind": {
+          "type": "selectionMark"
+        },
+        "SpouseBornBefore": {
+          "type": "selectionMark"
+        },
+        "SpouseBlind": {
+          "type": "selectionMark"
+        },
+        "Dependents": {
+          "type": "object",
+          "properties": {
+            "First Dependent": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark"
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark"
+                }
+              }
+            },
+            "Second Dependent": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark"
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark"
+                }
+              }
+            },
+            "Third Dependent": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark"
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark"
+                }
+              }
+            },
+            "Fourth Dependent": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark"
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark"
+                }
+              }
+            }
+          }
+        },
+        "OverFourDependents": {
+          "type": "selectionMark"
+        },
+        "WagesSalariesTips": {
+          "type": "number"
+        },
+        "TaxExemptInterest": {
+          "type": "number"
+        },
+        "TaxableInterest": {
+          "type": "number"
+        },
+        "QualifiedDividends": {
+          "type": "number"
+        },
+        "OrdinaryDividends": {
+          "type": "number"
+        },
+        "IRADistribution": {
+          "type": "number"
+        },
+        "IRADistributionTaxable": {
+          "type": "number"
+        },
+        "PensionsAnnuities": {
+          "type": "number"
+        },
+        "PensionsAnnuitiesTaxable": {
+          "type": "number"
+        },
+        "SocialSecurityBenefits": {
+          "type": "number"
+        },
+        "SocialSecurityBenefitsTaxable": {
+          "type": "number"
+        },
+        "CaptialGain": {
+          "type": "number"
+        },
+        "ScheduleDNotRequired": {
+          "type": "selectionMark"
+        },
+        "OtherIncomeSchedule1": {
+          "type": "number"
+        },
+        "TotalIncome": {
+          "type": "number"
+        },
+        "AdjustmentIncomeSchedule1": {
+          "type": "number"
+        },
+        "CharitableContribution": {
+          "type": "number"
+        },
+        "TotalIncomeAdjustments": {
+          "type": "number"
+        },
+        "AdjustedGrossIncome": {
+          "type": "number"
+        },
+        "StandardDeduction": {
+          "type": "number"
+        },
+        "BusinessIncomeDeduction": {
+          "type": "number"
+        },
+        "Line12\u002B13": {
+          "type": "number"
+        },
+        "TaxableIncome": {
+          "type": "number"
+        },
+        "8814Form": {
+          "type": "selectionMark"
+        },
+        "4972Form": {
+          "type": "selectionMark"
+        },
+        "Tax": {
+          "type": "number"
+        },
+        "Schedule2Line3": {
+          "type": "number"
+        },
+        "line16\u002B17": {
+          "type": "number"
+        },
+        "ChildTaxCredit": {
+          "type": "number"
+        },
+        "Schedule3Line7": {
+          "type": "number"
+        },
+        "Line19\u002B20": {
+          "type": "number"
+        },
+        "Line18-21": {
+          "type": "number"
+        },
+        "OtherTaxes": {
+          "type": "number"
+        },
+        "TotalTax": {
+          "type": "number"
+        },
+        "IncomeTaxWithheldW2": {
+          "type": "number"
+        },
+        "IncomeTaxWithheld1099": {
+          "type": "number"
+        },
+        "IncomeTaxWithheldOther": {
+          "type": "number"
+        },
+        "TotalWithheld": {
+          "type": "number"
+        },
+        "2020EstimatedTaxPayments": {
+          "type": "number"
+        },
+        "EarnedIncomeCredit": {
+          "type": "number"
+        },
+        "AdditionalChildTaxCredit": {
+          "type": "number"
+        },
+        "AmericanOpportunityCredit": {
+          "type": "number"
+        },
+        "RecoveryRebateCredit": {
+          "type": "number"
+        },
+        "Schedule3Line13": {
+          "type": "number"
+        },
+        "TotalOtherPaymentRefundableCredit": {
+          "type": "number"
+        },
+        "TotalPayments": {
+          "type": "number"
+        },
+        "AmountOverpaid": {
+          "type": "number"
+        },
+        "AmountRefund": {
+          "type": "number"
+        },
+        "Form8888": {
+          "type": "selectionMark"
+        },
+        "RoutingNumber": {
+          "type": "number"
+        },
+        "AccountNumber": {
+          "type": "number"
+        },
+        "Checkings": {
+          "type": "selectionMark"
+        },
+        "Savings": {
+          "type": "selectionMark"
+        },
+        "AppliedToEstimatedTax": {
+          "type": "number"
+        },
+        "AmountOwe": {
+          "type": "number"
+        },
+        "EstimatedTaxPenalty": {
+          "type": "number"
+        },
+        "DesigneeName": {
+          "type": "string"
+        },
+        "DesigneePhoneNumber": {
+          "type": "number"
+        },
+        "DesigneePIN": {
+          "type": "number"
+        },
+        "AllowDiscussionYes": {
+          "type": "selectionMark"
+        },
+        "AllowDiscussionNo": {
+          "type": "selectionMark"
+        },
+        "Date": {
+          "type": "date"
+        },
+        "SpouseSignatureDate": {
+          "type": "date"
+        },
+        "Occupation": {
+          "type": "string"
+        },
+        "SpouseOccupation": {
+          "type": "string"
+        },
+        "IdentityProtectionPIN": {
+          "type": "number"
+        },
+        "SpouseIdentityProtectionPIN": {
+          "type": "number"
+        },
+        "PhoneNumber": {
+          "type": "number"
+        },
+        "Email": {
+          "type": "string"
+        },
+        "PreparerName": {
+          "type": "string"
+        },
+        "PreaprerSignatureDate": {
+          "type": "string"
+        },
+        "PTIN": {
+          "type": "number"
+        },
+        "SelfEmployed": {
+          "type": "selectionMark"
+        },
+        "FirmName": {
+          "type": "string"
+        },
+        "FirmAddress": {
+          "type": "string"
+        },
+        "PreparerPhoneNumber": {
+          "type": "string"
+        },
+        "FirmEIN": {
+          "type": "string"
+        }
+      },
+      "buildMode": "template",
+      "fieldConfidence": {
+        "2020EstimatedTaxPayments": 0.995,
+        "4972Form": 0.995,
+        "8814Form": 0.995,
+        "AccountNumber": 0.667,
+        "AdditionalChildTaxCredit": 0.889,
+        "Address": 0.889,
+        "AdjustedGrossIncome": 0.995,
+        "AdjustmentIncomeSchedule1": 0.889,
+        "AllowDiscussionNo": 0.995,
+        "AllowDiscussionYes": 0.995,
+        "AmericanOpportunityCredit": 0.995,
+        "AmountOverpaid": 0.995,
+        "AmountOwe": 0.995,
+        "AmountRefund": 0.889,
+        "AppliedToEstimatedTax": 0.778,
+        "AptNo": 0.995,
+        "Blind": 0.995,
+        "BornBefore": 0.995,
+        "BusinessIncomeDeduction": 0.889,
+        "CaptialGain": 0.778,
+        "CharitableContribution": 0.778,
+        "Checkings": 0.995,
+        "ChildTaxCredit": 0.995,
+        "City": 0.995,
+        "Date": 0.995,
+        "Dependents": 0.956,
+        "DesigneeName": 0.889,
+        "DesigneePhoneNumber": 0.889,
+        "DesigneePIN": 0.995,
+        "EarnedIncomeCredit": 0.995,
+        "Email": 0.667,
+        "EstimatedTaxPenalty": 0.995,
+        "FilingStatsQW": 0.995,
+        "FilingStatusHOH": 0.995,
+        "FilingStatusMarriedJoint": 0.995,
+        "FilingStatusMFS": 0.995,
+        "FilingStatusNames": 0.778,
+        "FilingStatusSingle": 0.995,
+        "FinancialInterestNo": 0.995,
+        "FinancialInterestYes": 0.995,
+        "FirmAddress": 0.889,
+        "FirmEIN": 0.778,
+        "FirmName": 0.889,
+        "FirstName": 0.889,
+        "ForeignCountry": 0.889,
+        "ForeignPostal": 0.889,
+        "ForeignProvince": 0.889,
+        "Form8888": 0.995,
+        "IdentityProtectionPIN": 0.778,
+        "IncomeTaxWithheld1099": 0.778,
+        "IncomeTaxWithheldOther": 0.995,
+        "IncomeTaxWithheldW2": 0.889,
+        "IRADistribution": 0.778,
+        "IRADistributionTaxable": 0.995,
+        "LastName": 0.995,
+        "Line12\u002B13": 0.995,
+        "line16\u002B17": 0.995,
+        "Line18-21": 0.995,
+        "Line19\u002B20": 0.995,
+        "Occupation": 0.995,
+        "OrdinaryDividends": 0.995,
+        "OtherIncomeSchedule1": 0.995,
+        "OtherTaxes": 0.995,
+        "OverFourDependents": 0.995,
+        "PensionsAnnuities": 0.778,
+        "PensionsAnnuitiesTaxable": 0.995,
+        "PhoneNumber": 0.778,
+        "PreaprerSignatureDate": 0.995,
+        "PreparerName": 0.667,
+        "PreparerPhoneNumber": 0.995,
+        "PresidentialElectionCampaignSpouse": 0.995,
+        "PresidentialElectionCampaignYou": 0.995,
+        "PTIN": 0.889,
+        "QualifiedDividends": 0.667,
+        "RecoveryRebateCredit": 0.995,
+        "RoutingNumber": 0.667,
+        "Savings": 0.995,
+        "Schedule2Line3": 0.995,
+        "Schedule3Line13": 0.778,
+        "Schedule3Line7": 0.995,
+        "ScheduleDNotRequired": 0.667,
+        "SelfEmployed": 0.995,
+        "SocialSecurityBenefits": 0.778,
+        "SocialSecurityBenefitsTaxable": 0.995,
+        "SpouseBlind": 0.995,
+        "SpouseBornBefore": 0.995,
+        "SpouseFirstName": 0.889,
+        "SpouseIdentityProtectionPIN": 0.995,
+        "SpouseLastName": 0.995,
+        "SpouseOccupation": 0.778,
+        "SpouseSignatureDate": 0.995,
+        "SpouseSSN": 0.778,
+        "SSN": 0.778,
+        "StandardDeduction": 0.995,
+        "StandardDeductionOther": 0.995,
+        "StandardDeductionSelf": 0.995,
+        "StandardDeductionSpouse": 0.995,
+        "State": 0.889,
+        "Tax": 0.995,
+        "TaxableIncome": 0.889,
+        "TaxableInterest": 0.889,
+        "TaxExemptInterest": 0.444,
+        "TotalIncome": 0.995,
+        "TotalIncomeAdjustments": 0.889,
+        "TotalOtherPaymentRefundableCredit": 0.995,
+        "TotalPayments": 0.995,
+        "TotalTax": 0.995,
+        "TotalWithheld": 0.995,
+        "WagesSalariesTips": 0.778,
+        "ZIP": 0.995
+      }
+    }
+  },
+  "modelId": "my-first-model-0629",
+  "createdDateTime": "2025-06-29T08:09:03Z",
+  "modifiedDateTime": "2025-06-29T08:09:03Z",
+  "expirationDateTime": "2027-06-29T08:09:03Z",
+  "apiVersion": "2023-07-31",
+  "description": ""
+}

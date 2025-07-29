@@ -1,0 +1,106 @@
+{
+    "$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/fields.json",
+    "fields": [
+        {
+            "fieldKey": "Name",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Citizenship",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PermanentStreetAddress",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PermanentCityState",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PermanentCountry",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "MailingStreetAddress",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "MailingCityState",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "MailingCountry",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SSN_ITIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ForeignTaxIdentifyingNumber",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ReferenceNumber",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "DateOfBirth",
+            "fieldType": "date",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ClaimBenefitResident",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ArticleParagraph",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Rate",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TypeOfIncome",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AdditionialConditions",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Date",
+            "fieldType": "date",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "NameOfSigner",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "CapacityActing",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        }
+    ],
+    "definitions": {}
+}

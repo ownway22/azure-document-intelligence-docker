@@ -1,0 +1,2432 @@
+{
+  "version": "",
+  "documentResults": [
+    {
+      "docType": "my-first-model-0629:my-first-model-0629",
+      "docTypeConfidence": 0.752,
+      "modelId": "my-first-model-0629",
+      "pageRange": [
+        1,
+        2
+      ],
+      "fields": {
+        "FirmName": {
+          "type": "string",
+          "valueString": "\u003E J\u0026JT Inc.",
+          "text": "\u003E J\u0026JT Inc.",
+          "boundingBox": [
+            1.99,
+            7.945,
+            2.615,
+            7.945,
+            2.615,
+            8.065,
+            1.99,
+            8.065
+          ],
+          "page": 2,
+          "confidence": 0.905,
+          "elements": [
+            "#/readResults/1/lines/524/words/2",
+            "#/readResults/1/lines/524/words/3",
+            "#/readResults/1/lines/524/words/4"
+          ]
+        },
+        "ForeignCountry": {
+          "type": "string",
+          "confidence": 0.93
+        },
+        "PensionsAnnuitiesTaxable": {
+          "type": "number",
+          "valueNumber": 780,
+          "text": "780",
+          "boundingBox": [
+            7.8100000000000005,
+            5.615,
+            7.97,
+            5.615,
+            7.97,
+            5.715,
+            7.8100000000000005,
+            5.715
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/166/words/0"
+          ]
+        },
+        "FinancialInterestNo": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            7.495,
+            3.145,
+            7.62,
+            3.145,
+            7.62,
+            3.27,
+            7.495,
+            3.27
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/11"
+          ]
+        },
+        "DesigneePIN": {
+          "type": "number",
+          "valueNumber": 48373,
+          "text": "48373",
+          "boundingBox": [
+            7.075,
+            6.11,
+            7.915,
+            6.11,
+            7.915,
+            6.2250000000000005,
+            7.075,
+            6.2250000000000005
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/483/words/0"
+          ]
+        },
+        "FilingStatusNames": {
+          "type": "string",
+          "valueString": "If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QW box, enter the child\u0027s name if the qualifying",
+          "text": "If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QW box, enter the child\u0027s name if the qualifying",
+          "boundingBox": [
+            1.325,
+            1.11,
+            7.99,
+            1.11,
+            7.99,
+            1.245,
+            1.325,
+            1.245
+          ],
+          "page": 1,
+          "confidence": 0.576,
+          "elements": [
+            "#/readResults/0/lines/16/words/0",
+            "#/readResults/0/lines/16/words/1",
+            "#/readResults/0/lines/16/words/2",
+            "#/readResults/0/lines/16/words/3",
+            "#/readResults/0/lines/16/words/4",
+            "#/readResults/0/lines/16/words/5",
+            "#/readResults/0/lines/16/words/6",
+            "#/readResults/0/lines/16/words/7",
+            "#/readResults/0/lines/16/words/8",
+            "#/readResults/0/lines/16/words/9",
+            "#/readResults/0/lines/16/words/10",
+            "#/readResults/0/lines/16/words/11",
+            "#/readResults/0/lines/16/words/12",
+            "#/readResults/0/lines/16/words/13",
+            "#/readResults/0/lines/16/words/14",
+            "#/readResults/0/lines/16/words/15",
+            "#/readResults/0/lines/16/words/16",
+            "#/readResults/0/lines/16/words/17",
+            "#/readResults/0/lines/16/words/18",
+            "#/readResults/0/lines/16/words/19",
+            "#/readResults/0/lines/16/words/20",
+            "#/readResults/0/lines/16/words/21",
+            "#/readResults/0/lines/16/words/22",
+            "#/readResults/0/lines/16/words/23",
+            "#/readResults/0/lines/16/words/24",
+            "#/readResults/0/lines/16/words/25",
+            "#/readResults/0/lines/16/words/26"
+          ]
+        },
+        "LastName": {
+          "type": "string",
+          "valueString": "Andrea",
+          "text": "Andrea",
+          "boundingBox": [
+            3.33,
+            1.605,
+            3.705,
+            1.605,
+            3.705,
+            1.715,
+            3.33,
+            1.715
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/22/words/0"
+          ]
+        },
+        "StandardDeductionOther": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            1.32,
+            3.52,
+            1.445,
+            3.52,
+            1.445,
+            3.645,
+            1.32,
+            3.645
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/9"
+          ]
+        },
+        "AmountRefund": {
+          "type": "number",
+          "valueNumber": 9000,
+          "text": "9,000",
+          "boundingBox": [
+            7.7,
+            4.365,
+            7.985,
+            4.365,
+            7.985,
+            4.48,
+            7.7,
+            4.48
+          ],
+          "page": 2,
+          "confidence": 0.961,
+          "elements": [
+            "#/readResults/1/lines/396/words/0"
+          ]
+        },
+        "Line12\u002B13": {
+          "type": "number",
+          "valueNumber": 36000,
+          "text": "36,000",
+          "boundingBox": [
+            7.635,
+            7.58,
+            7.995,
+            7.58,
+            7.995,
+            7.745,
+            7.635,
+            7.745
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/348/words/0"
+          ]
+        },
+        "TaxExemptInterest": {
+          "type": "number",
+          "valueNumber": 436246242,
+          "text": "436246 2 4 2",
+          "boundingBox": [
+            3.75,
+            4.445,
+            4.855,
+            4.445,
+            4.855,
+            4.565,
+            3.75,
+            4.565
+          ],
+          "page": 1,
+          "confidence": 0.244,
+          "elements": [
+            "#/readResults/0/lines/85/words/0",
+            "#/readResults/0/lines/85/words/1",
+            "#/readResults/0/lines/85/words/2",
+            "#/readResults/0/lines/85/words/3"
+          ]
+        },
+        "QualifiedDividends": {
+          "type": "number",
+          "confidence": 0.978
+        },
+        "FilingStatusSingle": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            1.32,
+            0.935,
+            1.45,
+            0.935,
+            1.45,
+            1.065,
+            1.32,
+            1.065
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/0"
+          ]
+        },
+        "Line18-21": {
+          "type": "number",
+          "valueNumber": 11143,
+          "text": "11,143",
+          "boundingBox": [
+            7.655,
+            1.53,
+            7.985,
+            1.53,
+            7.985,
+            1.645,
+            7.655,
+            1.645
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/152/words/0"
+          ]
+        },
+        "FirstName": {
+          "type": "string",
+          "valueString": "Arshavin",
+          "text": "Arshavin",
+          "boundingBox": [
+            0.505,
+            1.595,
+            0.97,
+            1.595,
+            0.97,
+            1.715,
+            0.505,
+            1.715
+          ],
+          "page": 1,
+          "confidence": 0.901,
+          "elements": [
+            "#/readResults/0/lines/21/words/0"
+          ]
+        },
+        "line16\u002B17": {
+          "type": "number",
+          "valueNumber": 15243,
+          "text": "15,243",
+          "boundingBox": [
+            7.65,
+            0.865,
+            7.985,
+            0.865,
+            7.985,
+            0.98,
+            7.65,
+            0.98
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/63/words/0"
+          ]
+        },
+        "IdentityProtectionPIN": {
+          "type": "number",
+          "valueNumber": 389024,
+          "text": "389024",
+          "boundingBox": [
+            7.065,
+            6.86,
+            7.930000000000001,
+            6.86,
+            7.930000000000001,
+            6.9750000000000005,
+            7.065,
+            6.9750000000000005
+          ],
+          "page": 2,
+          "confidence": 0.903,
+          "elements": [
+            "#/readResults/1/lines/501/words/0"
+          ]
+        },
+        "TotalWithheld": {
+          "type": "number",
+          "valueNumber": 6900,
+          "text": "6,900",
+          "boundingBox": [
+            7.705,
+            2.7,
+            7.9750000000000005,
+            2.7,
+            7.9750000000000005,
+            2.805,
+            7.705,
+            2.805
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/271/words/0"
+          ]
+        },
+        "Savings": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            6.035,
+            4.535,
+            6.16,
+            4.535,
+            6.16,
+            4.66,
+            6.035,
+            4.66
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/selectionMarks/5"
+          ]
+        },
+        "PresidentialElectionCampaignSpouse": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            7.495,
+            2.915,
+            7.62,
+            2.915,
+            7.62,
+            3.04,
+            7.495,
+            3.04
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/6"
+          ]
+        },
+        "SocialSecurityBenefits": {
+          "type": "number",
+          "valueNumber": 3500,
+          "text": "3,500",
+          "boundingBox": [
+            4.195,
+            5.7700000000000005,
+            4.4750000000000005,
+            5.7700000000000005,
+            4.4750000000000005,
+            5.89,
+            4.195,
+            5.89
+          ],
+          "page": 1,
+          "confidence": 0.953,
+          "elements": [
+            "#/readResults/0/lines/173/words/0"
+          ]
+        },
+        "IRADistributionTaxable": {
+          "type": "number",
+          "valueNumber": 100,
+          "text": "100",
+          "boundingBox": [
+            7.8100000000000005,
+            5.45,
+            7.9750000000000005,
+            5.45,
+            7.9750000000000005,
+            5.55,
+            7.8100000000000005,
+            5.55
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/152/words/0"
+          ]
+        },
+        "AccountNumber": {
+          "type": "number",
+          "text": "d Account number 8 9 56 723 4 8 9 57 0 39 5 1",
+          "boundingBox": [
+            1.395,
+            4.665,
+            5.715,
+            4.665,
+            5.715,
+            4.825,
+            1.395,
+            4.825
+          ],
+          "page": 2,
+          "confidence": 0.196,
+          "elements": [
+            "#/readResults/1/lines/405/words/0",
+            "#/readResults/1/lines/406/words/0",
+            "#/readResults/1/lines/406/words/1",
+            "#/readResults/1/lines/407/words/0",
+            "#/readResults/1/lines/407/words/1",
+            "#/readResults/1/lines/407/words/2",
+            "#/readResults/1/lines/407/words/3",
+            "#/readResults/1/lines/407/words/4",
+            "#/readResults/1/lines/407/words/5",
+            "#/readResults/1/lines/407/words/6",
+            "#/readResults/1/lines/407/words/7",
+            "#/readResults/1/lines/407/words/8",
+            "#/readResults/1/lines/407/words/9",
+            "#/readResults/1/lines/407/words/10",
+            "#/readResults/1/lines/407/words/11"
+          ]
+        },
+        "SpouseSignatureDate": {
+          "type": "date",
+          "confidence": 0.954
+        },
+        "Line19\u002B20": {
+          "type": "number",
+          "valueNumber": 4100,
+          "text": "4,100",
+          "boundingBox": [
+            7.7,
+            1.335,
+            7.995,
+            1.335,
+            7.995,
+            1.49,
+            7.7,
+            1.49
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/134/words/0"
+          ]
+        },
+        "OverFourDependents": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            0.9,
+            4.75,
+            1.025,
+            4.75,
+            1.025,
+            4.875,
+            0.9,
+            4.875
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/23"
+          ]
+        },
+        "PreaprerSignatureDate": {
+          "type": "string",
+          "confidence": 0.954
+        },
+        "AmountOwe": {
+          "type": "number",
+          "valueNumber": -9837,
+          "text": "-9,837",
+          "boundingBox": [
+            7.66,
+            5.025,
+            7.99,
+            5.025,
+            7.99,
+            5.14,
+            7.66,
+            5.14
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/432/words/0"
+          ]
+        },
+        "Blind": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            3.62,
+            3.765,
+            3.745,
+            3.765,
+            3.745,
+            3.8850000000000002,
+            3.62,
+            3.8850000000000002
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/13"
+          ]
+        },
+        "ForeignPostal": {
+          "type": "number",
+          "confidence": 0.965
+        },
+        "SSN": {
+          "type": "number",
+          "valueNumber": 434344341,
+          "text": "4343 4 4 3 4 1",
+          "boundingBox": [
+            6.575,
+            1.58,
+            7.930000000000001,
+            1.58,
+            7.930000000000001,
+            1.725,
+            6.575,
+            1.725
+          ],
+          "page": 1,
+          "confidence": 0.643,
+          "elements": [
+            "#/readResults/0/lines/23/words/0",
+            "#/readResults/0/lines/23/words/1",
+            "#/readResults/0/lines/23/words/2",
+            "#/readResults/0/lines/23/words/3",
+            "#/readResults/0/lines/23/words/4",
+            "#/readResults/0/lines/23/words/5"
+          ]
+        },
+        "Schedule3Line7": {
+          "type": "number",
+          "valueNumber": 2100,
+          "text": "2,100",
+          "boundingBox": [
+            7.7,
+            1.17,
+            7.995,
+            1.17,
+            7.995,
+            1.325,
+            7.7,
+            1.325
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/107/words/0"
+          ]
+        },
+        "PhoneNumber": {
+          "type": "number",
+          "valueNumber": 123192032,
+          "text": "123192032",
+          "boundingBox": [
+            2.555,
+            7.445,
+            3.115,
+            7.445,
+            3.115,
+            7.555,
+            2.555,
+            7.555
+          ],
+          "page": 2,
+          "confidence": 0.77,
+          "elements": [
+            "#/readResults/1/lines/511/words/0"
+          ]
+        },
+        "OtherIncomeSchedule1": {
+          "type": "number",
+          "valueNumber": 2000,
+          "text": "2,000",
+          "boundingBox": [
+            7.71,
+            6.11,
+            7.985,
+            6.11,
+            7.985,
+            6.2250000000000005,
+            7.71,
+            6.2250000000000005
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/215/words/0"
+          ]
+        },
+        "FinancialInterestYes": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            6.99,
+            3.145,
+            7.12,
+            3.145,
+            7.12,
+            3.27,
+            6.99,
+            3.27
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/10"
+          ]
+        },
+        "TaxableInterest": {
+          "type": "number",
+          "valueNumber": 900,
+          "text": "900",
+          "boundingBox": [
+            7.8,
+            5.12,
+            7.9750000000000005,
+            5.12,
+            7.9750000000000005,
+            5.22,
+            7.8,
+            5.22
+          ],
+          "page": 1,
+          "confidence": 0.959,
+          "elements": [
+            "#/readResults/0/lines/124/words/0"
+          ]
+        },
+        "CaptialGain": {
+          "type": "number",
+          "confidence": 0.978
+        },
+        "ZIP": {
+          "type": "string",
+          "valueString": "19019",
+          "text": "19019",
+          "boundingBox": [
+            5.9,
+            2.6,
+            6.2,
+            2.6,
+            6.2,
+            2.7,
+            5.9,
+            2.7
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/39/words/0"
+          ]
+        },
+        "PreparerName": {
+          "type": "string",
+          "valueString": "Michael JT",
+          "text": "Michael JT",
+          "boundingBox": [
+            1.2750000000000001,
+            7.76,
+            1.86,
+            7.76,
+            1.86,
+            7.88,
+            1.2750000000000001,
+            7.88
+          ],
+          "page": 2,
+          "confidence": 0.725,
+          "elements": [
+            "#/readResults/1/lines/521/words/0",
+            "#/readResults/1/lines/521/words/1"
+          ]
+        },
+        "AmountOverpaid": {
+          "type": "number",
+          "valueNumber": 9837,
+          "text": "9,837",
+          "boundingBox": [
+            7.705,
+            4.2,
+            7.985,
+            4.2,
+            7.985,
+            4.3100000000000005,
+            7.705,
+            4.3100000000000005
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/387/words/0"
+          ]
+        },
+        "TaxableIncome": {
+          "type": "number",
+          "text": "Form 1040 (2020)",
+          "boundingBox": [
+            7.215,
+            7.95,
+            7.995,
+            7.95,
+            7.995,
+            8.08,
+            7.215,
+            8.08
+          ],
+          "page": 1,
+          "confidence": 0.668,
+          "elements": [
+            "#/readResults/0/lines/363/words/0",
+            "#/readResults/0/lines/363/words/1",
+            "#/readResults/0/lines/363/words/2"
+          ]
+        },
+        "FilingStatusMarriedJoint": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            1.92,
+            0.935,
+            2.045,
+            0.935,
+            2.045,
+            1.065,
+            1.92,
+            1.065
+          ],
+          "page": 1,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/0/selectionMarks/1"
+          ]
+        },
+        "2020EstimatedTaxPayments": {
+          "type": "number",
+          "valueNumber": 1540,
+          "text": "1,540",
+          "boundingBox": [
+            7.71,
+            2.865,
+            7.9750000000000005,
+            2.865,
+            7.9750000000000005,
+            2.975,
+            7.71,
+            2.975
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/291/words/0"
+          ]
+        },
+        "SpouseIdentityProtectionPIN": {
+          "type": "number",
+          "valueNumber": 978236,
+          "text": "978236",
+          "boundingBox": [
+            7.0600000000000005,
+            7.28,
+            7.925,
+            7.28,
+            7.925,
+            7.385,
+            7.0600000000000005,
+            7.385
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/509/words/0"
+          ]
+        },
+        "BusinessIncomeDeduction": {
+          "type": "number",
+          "valueNumber": 12000,
+          "text": "12,000",
+          "boundingBox": [
+            7.6450000000000005,
+            7.42,
+            7.995,
+            7.42,
+            7.995,
+            7.58,
+            7.6450000000000005,
+            7.58
+          ],
+          "page": 1,
+          "confidence": 0.958,
+          "elements": [
+            "#/readResults/0/lines/318/words/0"
+          ]
+        },
+        "AptNo": {
+          "type": "string",
+          "valueString": "343",
+          "text": "343",
+          "boundingBox": [
+            6.0600000000000005,
+            2.265,
+            6.235,
+            2.265,
+            6.235,
+            2.37,
+            6.0600000000000005,
+            2.37
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/33/words/0"
+          ]
+        },
+        "FirmAddress": {
+          "type": "string",
+          "valueString": "223 Stanton Street, Philadelphia, PA, 19019",
+          "text": "223 Stanton Street, Philadelphia, PA, 19019",
+          "boundingBox": [
+            2.23,
+            8.1,
+            4.51,
+            8.1,
+            4.51,
+            8.235,
+            2.23,
+            8.235
+          ],
+          "page": 2,
+          "confidence": 0.953,
+          "elements": [
+            "#/readResults/1/lines/528/words/0",
+            "#/readResults/1/lines/528/words/1",
+            "#/readResults/1/lines/528/words/2",
+            "#/readResults/1/lines/528/words/3",
+            "#/readResults/1/lines/528/words/4",
+            "#/readResults/1/lines/528/words/5"
+          ]
+        },
+        "FilingStatsQW": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            6.5200000000000005,
+            0.9400000000000001,
+            6.6450000000000005,
+            0.9400000000000001,
+            6.6450000000000005,
+            1.065,
+            6.5200000000000005,
+            1.065
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/4"
+          ]
+        },
+        "ForeignProvince": {
+          "type": "string",
+          "valueString": "You",
+          "text": "You",
+          "boundingBox": [
+            7.155,
+            2.93,
+            7.32,
+            2.93,
+            7.32,
+            3.025,
+            7.155,
+            3.025
+          ],
+          "page": 1,
+          "confidence": 0.9,
+          "elements": [
+            "#/readResults/0/lines/49/words/0"
+          ]
+        },
+        "SpouseFirstName": {
+          "type": "string",
+          "valueString": "Sylvia",
+          "text": "Sylvia",
+          "boundingBox": [
+            0.515,
+            1.935,
+            0.835,
+            1.935,
+            0.835,
+            2.055,
+            0.515,
+            2.055
+          ],
+          "page": 1,
+          "confidence": 0.969,
+          "elements": [
+            "#/readResults/0/lines/27/words/0"
+          ]
+        },
+        "Schedule2Line3": {
+          "type": "number",
+          "valueNumber": 1243,
+          "text": "1,243",
+          "boundingBox": [
+            7.715,
+            0.6950000000000001,
+            7.985,
+            0.6950000000000001,
+            7.985,
+            0.805,
+            7.715,
+            0.805
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/35/words/0"
+          ]
+        },
+        "State": {
+          "type": "string",
+          "valueString": "PA",
+          "text": "PA",
+          "boundingBox": [
+            5.065,
+            2.6,
+            5.21,
+            2.6,
+            5.21,
+            2.7,
+            5.065,
+            2.7
+          ],
+          "page": 1,
+          "confidence": 0.972,
+          "elements": [
+            "#/readResults/0/lines/38/words/0"
+          ]
+        },
+        "CharitableContribution": {
+          "type": "number",
+          "valueNumber": 16000,
+          "text": "16,000",
+          "boundingBox": [
+            6.335,
+            6.78,
+            6.67,
+            6.78,
+            6.67,
+            6.9,
+            6.335,
+            6.9
+          ],
+          "page": 1,
+          "confidence": 0.949,
+          "elements": [
+            "#/readResults/0/lines/259/words/0"
+          ]
+        },
+        "PreparerPhoneNumber": {
+          "type": "string",
+          "valueString": "4156783176",
+          "text": "4156783176",
+          "boundingBox": [
+            7.16,
+            7.95,
+            7.765000000000001,
+            7.95,
+            7.765000000000001,
+            8.055,
+            7.16,
+            8.055
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/526/words/0"
+          ]
+        },
+        "SpouseLastName": {
+          "type": "string",
+          "valueString": "Chen",
+          "text": "Chen",
+          "boundingBox": [
+            3.325,
+            1.94,
+            3.585,
+            1.94,
+            3.585,
+            2.04,
+            3.325,
+            2.04
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/28/words/0"
+          ]
+        },
+        "StandardDeductionSpouse": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            3.9250000000000003,
+            3.355,
+            4.045,
+            3.355,
+            4.045,
+            3.48,
+            3.9250000000000003,
+            3.48
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/8"
+          ]
+        },
+        "TotalIncomeAdjustments": {
+          "type": "number",
+          "valueNumber": 12300,
+          "text": "12,300",
+          "boundingBox": [
+            7.65,
+            6.95,
+            7.985,
+            6.95,
+            7.985,
+            7.0600000000000005,
+            7.65,
+            7.0600000000000005
+          ],
+          "page": 1,
+          "confidence": 0.953,
+          "elements": [
+            "#/readResults/0/lines/274/words/0"
+          ]
+        },
+        "IncomeTaxWithheld1099": {
+          "type": "number",
+          "valueNumber": 3400,
+          "text": "3,400",
+          "boundingBox": [
+            6.405,
+            2.365,
+            6.68,
+            2.365,
+            6.68,
+            2.48,
+            6.405,
+            2.48
+          ],
+          "page": 2,
+          "confidence": 0.942,
+          "elements": [
+            "#/readResults/1/lines/231/words/0"
+          ]
+        },
+        "FilingStatusMFS": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            3.22,
+            0.935,
+            3.345,
+            0.935,
+            3.345,
+            1.065,
+            3.22,
+            1.065
+          ],
+          "page": 1,
+          "confidence": 0.992,
+          "elements": [
+            "#/readResults/0/selectionMarks/2"
+          ]
+        },
+        "TotalPayments": {
+          "type": "number",
+          "valueNumber": 22280,
+          "text": "22,280",
+          "boundingBox": [
+            7.6450000000000005,
+            4.035,
+            7.98,
+            4.035,
+            7.98,
+            4.1450000000000005,
+            7.6450000000000005,
+            4.1450000000000005
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/380/words/0"
+          ]
+        },
+        "StandardDeductionSelf": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            2.52,
+            3.355,
+            2.645,
+            3.355,
+            2.645,
+            3.48,
+            2.52,
+            3.48
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/7"
+          ]
+        },
+        "AdjustedGrossIncome": {
+          "type": "number",
+          "valueNumber": 134454,
+          "text": "134,454",
+          "boundingBox": [
+            7.595,
+            7.115,
+            7.985,
+            7.115,
+            7.985,
+            7.23,
+            7.595,
+            7.23
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/289/words/0"
+          ]
+        },
+        "AmericanOpportunityCredit": {
+          "type": "number",
+          "valueNumber": 1900,
+          "text": "1,900",
+          "boundingBox": [
+            6.4,
+            3.355,
+            6.67,
+            3.355,
+            6.67,
+            3.48,
+            6.4,
+            3.48
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/328/words/0"
+          ]
+        },
+        "Checkings": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            5.235,
+            4.535,
+            5.36,
+            4.535,
+            5.36,
+            4.66,
+            5.235,
+            4.66
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/selectionMarks/4"
+          ]
+        },
+        "IncomeTaxWithheldOther": {
+          "type": "number",
+          "confidence": 0.954
+        },
+        "AppliedToEstimatedTax": {
+          "type": "number",
+          "valueNumber": 5000,
+          "text": "5,000",
+          "boundingBox": [
+            6.390000000000001,
+            4.855,
+            6.675,
+            4.855,
+            6.675,
+            4.9750000000000005,
+            6.390000000000001,
+            4.9750000000000005
+          ],
+          "page": 2,
+          "confidence": 0.671,
+          "elements": [
+            "#/readResults/1/lines/413/words/0"
+          ]
+        },
+        "TotalOtherPaymentRefundableCredit": {
+          "type": "number",
+          "valueNumber": 13840,
+          "text": "13,840",
+          "boundingBox": [
+            7.640000000000001,
+            3.83,
+            7.995,
+            3.83,
+            7.995,
+            4,
+            7.640000000000001,
+            4
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/364/words/0"
+          ]
+        },
+        "Form8888": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            6.455,
+            4.36,
+            6.58,
+            4.36,
+            6.58,
+            4.485,
+            6.455,
+            4.485
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/selectionMarks/3"
+          ]
+        },
+        "OrdinaryDividends": {
+          "type": "number",
+          "confidence": 0.954
+        },
+        "AllowDiscussionYes": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            5.69,
+            5.83,
+            5.82,
+            5.83,
+            5.82,
+            5.96,
+            5.69,
+            5.96
+          ],
+          "page": 2,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/1/selectionMarks/6"
+          ]
+        },
+        "SocialSecurityBenefitsTaxable": {
+          "type": "number",
+          "valueNumber": 300,
+          "text": "300",
+          "boundingBox": [
+            7.805000000000001,
+            5.775,
+            7.9750000000000005,
+            5.775,
+            7.9750000000000005,
+            5.88,
+            7.805000000000001,
+            5.88
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/181/words/0"
+          ]
+        },
+        "Email": {
+          "type": "string",
+          "valueString": "arsenal@outlook1.com",
+          "text": "arsenal@outlook1.com",
+          "boundingBox": [
+            4.51,
+            7.44,
+            5.69,
+            7.44,
+            5.69,
+            7.5600000000000005,
+            4.51,
+            7.5600000000000005
+          ],
+          "page": 2,
+          "confidence": 0.571,
+          "elements": [
+            "#/readResults/1/lines/512/words/2"
+          ]
+        },
+        "AdjustmentIncomeSchedule1": {
+          "type": "number",
+          "valueNumber": 2300,
+          "text": "2,300",
+          "boundingBox": [
+            6.4,
+            6.61,
+            6.665,
+            6.61,
+            6.665,
+            6.72,
+            6.4,
+            6.72
+          ],
+          "page": 1,
+          "confidence": 0.971,
+          "elements": [
+            "#/readResults/0/lines/255/words/0"
+          ]
+        },
+        "SpouseBornBefore": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            5.0200000000000005,
+            3.765,
+            5.1450000000000005,
+            3.765,
+            5.1450000000000005,
+            3.89,
+            5.0200000000000005,
+            3.89
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/14"
+          ]
+        },
+        "IRADistribution": {
+          "type": "number",
+          "valueNumber": 2100,
+          "text": "2,100",
+          "boundingBox": [
+            4.2,
+            5.445,
+            4.4750000000000005,
+            5.445,
+            4.4750000000000005,
+            5.5600000000000005,
+            4.2,
+            5.5600000000000005
+          ],
+          "page": 1,
+          "confidence": 0.959,
+          "elements": [
+            "#/readResults/0/lines/144/words/0"
+          ]
+        },
+        "WagesSalariesTips": {
+          "type": "number",
+          "valueNumber": 182322,
+          "text": "182,322",
+          "boundingBox": [
+            7.59,
+            4.95,
+            7.985,
+            4.95,
+            7.985,
+            5.055,
+            7.59,
+            5.055
+          ],
+          "page": 1,
+          "confidence": 0.904,
+          "elements": [
+            "#/readResults/0/lines/111/words/0"
+          ]
+        },
+        "Address": {
+          "type": "string",
+          "valueString": "1224 Centre Ave",
+          "text": "1224 Centre Ave",
+          "boundingBox": [
+            0.515,
+            2.2600000000000002,
+            1.375,
+            2.2600000000000002,
+            1.375,
+            2.38,
+            0.515,
+            2.38
+          ],
+          "page": 1,
+          "confidence": 0.948,
+          "elements": [
+            "#/readResults/0/lines/31/words/0",
+            "#/readResults/0/lines/31/words/1",
+            "#/readResults/0/lines/31/words/2"
+          ]
+        },
+        "Date": {
+          "type": "date",
+          "confidence": 0.954
+        },
+        "TotalTax": {
+          "type": "number",
+          "valueNumber": 12443,
+          "text": "12,443",
+          "boundingBox": [
+            7.655,
+            1.86,
+            7.995,
+            1.86,
+            7.995,
+            1.975,
+            7.655,
+            1.975
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/186/words/0"
+          ]
+        },
+        "OtherTaxes": {
+          "type": "number",
+          "valueNumber": 1300,
+          "text": "1,300",
+          "boundingBox": [
+            7.73,
+            1.67,
+            7.99,
+            1.67,
+            7.99,
+            1.835,
+            7.73,
+            1.835
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/165/words/0"
+          ]
+        },
+        "Schedule3Line13": {
+          "type": "number",
+          "valueNumber": 4300,
+          "text": "4,300",
+          "boundingBox": [
+            6.3950000000000005,
+            3.69,
+            6.67,
+            3.69,
+            6.67,
+            3.805,
+            6.3950000000000005,
+            3.805
+          ],
+          "page": 2,
+          "confidence": 0.911,
+          "elements": [
+            "#/readResults/1/lines/357/words/0"
+          ]
+        },
+        "AdditionalChildTaxCredit": {
+          "type": "number",
+          "valueNumber": 4320,
+          "text": "4,320",
+          "boundingBox": [
+            6.4,
+            3.1950000000000003,
+            6.665,
+            3.1950000000000003,
+            6.665,
+            3.31,
+            6.4,
+            3.31
+          ],
+          "page": 2,
+          "confidence": 0.965,
+          "elements": [
+            "#/readResults/1/lines/318/words/0"
+          ]
+        },
+        "City": {
+          "type": "string",
+          "valueString": "Philadelphia",
+          "text": "Philadelphia",
+          "boundingBox": [
+            0.505,
+            2.595,
+            1.16,
+            2.595,
+            1.16,
+            2.72,
+            0.505,
+            2.72
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/37/words/0"
+          ]
+        },
+        "FilingStatusHOH": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            5.0200000000000005,
+            0.935,
+            5.1450000000000005,
+            0.935,
+            5.1450000000000005,
+            1.06,
+            5.0200000000000005,
+            1.06
+          ],
+          "page": 1,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/0/selectionMarks/3"
+          ]
+        },
+        "TotalIncome": {
+          "type": "number",
+          "valueNumber": 176754,
+          "text": "176,754",
+          "boundingBox": [
+            7.595,
+            6.28,
+            7.98,
+            6.28,
+            7.98,
+            6.3950000000000005,
+            7.595,
+            6.3950000000000005
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/lines/230/words/0"
+          ]
+        },
+        "8814Form": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            4.12,
+            0.53,
+            4.245,
+            0.53,
+            4.245,
+            0.66,
+            4.12,
+            0.66
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/selectionMarks/0"
+          ]
+        },
+        "ChildTaxCredit": {
+          "type": "number",
+          "valueNumber": 2000,
+          "text": "2,000",
+          "boundingBox": [
+            7.705,
+            1.0050000000000001,
+            7.995,
+            1.0050000000000001,
+            7.995,
+            1.16,
+            7.705,
+            1.16
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/83/words/0"
+          ]
+        },
+        "ScheduleDNotRequired": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            6.455,
+            5.94,
+            6.58,
+            5.94,
+            6.58,
+            6.0600000000000005,
+            6.455,
+            6.0600000000000005
+          ],
+          "page": 1,
+          "confidence": 0.725,
+          "elements": [
+            "#/readResults/0/selectionMarks/26"
+          ]
+        },
+        "PensionsAnnuities": {
+          "type": "number",
+          "valueNumber": 3000,
+          "text": "3,000",
+          "boundingBox": [
+            4.2,
+            5.61,
+            4.465,
+            5.61,
+            4.465,
+            5.7250000000000005,
+            4.2,
+            5.7250000000000005
+          ],
+          "page": 1,
+          "confidence": 0.929,
+          "elements": [
+            "#/readResults/0/lines/158/words/0"
+          ]
+        },
+        "PTIN": {
+          "type": "number",
+          "valueNumber": 12234,
+          "text": "12234",
+          "boundingBox": [
+            6.445,
+            7.765000000000001,
+            6.75,
+            7.765000000000001,
+            6.75,
+            7.875,
+            6.445,
+            7.875
+          ],
+          "page": 2,
+          "confidence": 0.883,
+          "elements": [
+            "#/readResults/1/lines/522/words/0"
+          ]
+        },
+        "RoutingNumber": {
+          "type": "number",
+          "valueNumber": 289740212,
+          "text": "2 89740 2 1 2",
+          "boundingBox": [
+            2.485,
+            4.515,
+            4.12,
+            4.515,
+            4.12,
+            4.64,
+            2.485,
+            4.64
+          ],
+          "page": 2,
+          "confidence": 0.853,
+          "elements": [
+            "#/readResults/1/lines/401/words/0",
+            "#/readResults/1/lines/401/words/1",
+            "#/readResults/1/lines/401/words/2",
+            "#/readResults/1/lines/401/words/3",
+            "#/readResults/1/lines/401/words/4"
+          ]
+        },
+        "SpouseOccupation": {
+          "type": "string",
+          "valueString": "UX Designer",
+          "text": "UX Designer",
+          "boundingBox": [
+            4.515,
+            7.22,
+            5.19,
+            7.22,
+            5.19,
+            7.3500000000000005,
+            4.515,
+            7.3500000000000005
+          ],
+          "page": 2,
+          "confidence": 0.942,
+          "elements": [
+            "#/readResults/1/lines/505/words/0",
+            "#/readResults/1/lines/505/words/1"
+          ]
+        },
+        "EarnedIncomeCredit": {
+          "type": "number",
+          "confidence": 0.954
+        },
+        "StandardDeduction": {
+          "type": "number",
+          "valueNumber": 48000,
+          "text": "48,000",
+          "boundingBox": [
+            7.63,
+            7.245,
+            7.99,
+            7.245,
+            7.99,
+            7.41,
+            7.63,
+            7.41
+          ],
+          "page": 1,
+          "confidence": 0.989,
+          "elements": [
+            "#/readResults/0/lines/290/words/0"
+          ]
+        },
+        "4972Form": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            4.82,
+            0.535,
+            4.945,
+            0.535,
+            4.945,
+            0.66,
+            4.82,
+            0.66
+          ],
+          "page": 2,
+          "confidence": 0.977,
+          "elements": [
+            "#/readResults/1/selectionMarks/1"
+          ]
+        },
+        "IncomeTaxWithheldW2": {
+          "type": "number",
+          "valueNumber": 2500,
+          "text": "2,500",
+          "boundingBox": [
+            6.41,
+            2.195,
+            6.68,
+            2.195,
+            6.68,
+            2.31,
+            6.41,
+            2.31
+          ],
+          "page": 2,
+          "confidence": 0.945,
+          "elements": [
+            "#/readResults/1/lines/210/words/0"
+          ]
+        },
+        "PresidentialElectionCampaignYou": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            6.995,
+            2.92,
+            7.12,
+            2.92,
+            7.12,
+            3.04,
+            6.995,
+            3.04
+          ],
+          "page": 1,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/0/selectionMarks/5"
+          ]
+        },
+        "RecoveryRebateCredit": {
+          "type": "number",
+          "valueNumber": 1000,
+          "text": "1,000",
+          "boundingBox": [
+            6.405,
+            3.5300000000000002,
+            6.67,
+            3.5300000000000002,
+            6.67,
+            3.645,
+            6.405,
+            3.645
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/341/words/0"
+          ]
+        },
+        "DesigneeName": {
+          "type": "string",
+          "valueString": "Andrew Carnegie",
+          "text": "Andrew Carnegie",
+          "boundingBox": [
+            2.005,
+            6.0200000000000005,
+            2.9250000000000003,
+            6.0200000000000005,
+            2.9250000000000003,
+            6.16,
+            2.005,
+            6.16
+          ],
+          "page": 2,
+          "confidence": 0.905,
+          "elements": [
+            "#/readResults/1/lines/487/words/0",
+            "#/readResults/1/lines/487/words/1"
+          ]
+        },
+        "DesigneePhoneNumber": {
+          "type": "number",
+          "valueNumber": 5338284729,
+          "text": "5338284729",
+          "boundingBox": [
+            4.9350000000000005,
+            6.07,
+            5.5600000000000005,
+            6.07,
+            5.5600000000000005,
+            6.1850000000000005,
+            4.9350000000000005,
+            6.1850000000000005
+          ],
+          "page": 2,
+          "confidence": 0.949,
+          "elements": [
+            "#/readResults/1/lines/491/words/0"
+          ]
+        },
+        "FirmEIN": {
+          "type": "string",
+          "valueString": "Form 1040 (2020)",
+          "text": "Form 1040 (2020)",
+          "boundingBox": [
+            7.22,
+            8.295,
+            8,
+            8.295,
+            8,
+            8.415000000000001,
+            7.22,
+            8.415000000000001
+          ],
+          "page": 2,
+          "confidence": 0.588,
+          "elements": [
+            "#/readResults/1/lines/532/words/0",
+            "#/readResults/1/lines/532/words/1",
+            "#/readResults/1/lines/532/words/2"
+          ]
+        },
+        "EstimatedTaxPenalty": {
+          "type": "number",
+          "valueNumber": 1000,
+          "text": "1,000",
+          "boundingBox": [
+            6.4,
+            5.525,
+            6.68,
+            5.525,
+            6.68,
+            5.6450000000000005,
+            6.4,
+            5.6450000000000005
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/448/words/0"
+          ]
+        },
+        "SpouseBlind": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            7.025,
+            3.765,
+            7.1450000000000005,
+            3.765,
+            7.1450000000000005,
+            3.89,
+            7.025,
+            3.89
+          ],
+          "page": 1,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/0/selectionMarks/15"
+          ]
+        },
+        "AllowDiscussionNo": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            7.09,
+            5.83,
+            7.22,
+            5.83,
+            7.22,
+            5.96,
+            7.09,
+            5.96
+          ],
+          "page": 2,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/1/selectionMarks/7"
+          ]
+        },
+        "SelfEmployed": {
+          "type": "selectionMark",
+          "valueSelectionMark": "unselected",
+          "text": "unselected",
+          "boundingBox": [
+            7.09,
+            7.755,
+            7.215,
+            7.755,
+            7.215,
+            7.88,
+            7.09,
+            7.88
+          ],
+          "page": 2,
+          "confidence": 0.991,
+          "elements": [
+            "#/readResults/1/selectionMarks/8"
+          ]
+        },
+        "BornBefore": {
+          "type": "selectionMark",
+          "valueSelectionMark": "selected",
+          "text": "selected",
+          "boundingBox": [
+            1.62,
+            3.765,
+            1.745,
+            3.765,
+            1.745,
+            3.89,
+            1.62,
+            3.89
+          ],
+          "page": 1,
+          "confidence": 0.992,
+          "elements": [
+            "#/readResults/0/selectionMarks/12"
+          ]
+        },
+        "SpouseSSN": {
+          "type": "number",
+          "valueNumber": 189023471,
+          "text": "18 9 0 2 3 4 7 1",
+          "boundingBox": [
+            6.575,
+            1.9100000000000001,
+            7.9350000000000005,
+            1.9100000000000001,
+            7.9350000000000005,
+            2.06,
+            6.575,
+            2.06
+          ],
+          "page": 1,
+          "confidence": 0.944,
+          "elements": [
+            "#/readResults/0/lines/29/words/0",
+            "#/readResults/0/lines/29/words/1",
+            "#/readResults/0/lines/29/words/2",
+            "#/readResults/0/lines/29/words/3",
+            "#/readResults/0/lines/29/words/4",
+            "#/readResults/0/lines/29/words/5",
+            "#/readResults/0/lines/29/words/6",
+            "#/readResults/0/lines/29/words/7"
+          ]
+        },
+        "Tax": {
+          "type": "number",
+          "valueNumber": 14000,
+          "text": "14,000",
+          "boundingBox": [
+            7.65,
+            0.53,
+            7.98,
+            0.53,
+            7.98,
+            0.645,
+            7.65,
+            0.645
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/11/words/0"
+          ]
+        },
+        "Occupation": {
+          "type": "string",
+          "valueString": "Software Engineer",
+          "text": "Software Engineer",
+          "boundingBox": [
+            4.5200000000000005,
+            6.805,
+            5.5,
+            6.805,
+            5.5,
+            6.93,
+            4.5200000000000005,
+            6.93
+          ],
+          "page": 2,
+          "confidence": 0.99,
+          "elements": [
+            "#/readResults/1/lines/497/words/0",
+            "#/readResults/1/lines/497/words/1"
+          ]
+        },
+        "Dependents": {
+          "type": "object",
+          "valueObject": {
+            "First Dependent": {
+              "type": "object",
+              "valueObject": {
+                "Name": {
+                  "type": "string",
+                  "valueString": "Greg Andrea",
+                  "text": "Greg Andrea",
+                  "boundingBox": [
+                    1.315,
+                    4.28,
+                    1.98,
+                    4.28,
+                    1.98,
+                    4.3950000000000005,
+                    1.315,
+                    4.3950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/80/words/0",
+                    "#/readResults/0/lines/80/words/1"
+                  ]
+                },
+                "SSN": {
+                  "type": "number",
+                  "valueNumber": 144456677,
+                  "text": "1 4 4 4 5 6 6 7 7",
+                  "boundingBox": [
+                    3.755,
+                    4.275,
+                    4.855,
+                    4.275,
+                    4.855,
+                    4.3950000000000005,
+                    3.755,
+                    4.3950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/81/words/0",
+                    "#/readResults/0/lines/81/words/1",
+                    "#/readResults/0/lines/81/words/2",
+                    "#/readResults/0/lines/81/words/3",
+                    "#/readResults/0/lines/81/words/4",
+                    "#/readResults/0/lines/81/words/5",
+                    "#/readResults/0/lines/81/words/6",
+                    "#/readResults/0/lines/81/words/7",
+                    "#/readResults/0/lines/81/words/8"
+                  ]
+                },
+                "Relationship": {
+                  "type": "string",
+                  "valueString": "Son",
+                  "text": "Son",
+                  "boundingBox": [
+                    4.93,
+                    4.28,
+                    5.12,
+                    4.28,
+                    5.12,
+                    4.39,
+                    4.93,
+                    4.39
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/82/words/0"
+                  ]
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "selected",
+                  "text": "selected",
+                  "boundingBox": [
+                    6.285,
+                    4.2700000000000005,
+                    6.41,
+                    4.2700000000000005,
+                    6.41,
+                    4.3950000000000005,
+                    6.285,
+                    4.3950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/16"
+                  ]
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "selected",
+                  "text": "selected",
+                  "boundingBox": [
+                    7.385,
+                    4.2700000000000005,
+                    7.515000000000001,
+                    4.2700000000000005,
+                    7.515000000000001,
+                    4.3950000000000005,
+                    7.385,
+                    4.3950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/17"
+                  ]
+                }
+              }
+            },
+            "Second Dependent": {
+              "type": "object",
+              "valueObject": {
+                "Name": {
+                  "type": "string",
+                  "valueString": "Amy Andrea",
+                  "text": "Amy Andrea",
+                  "boundingBox": [
+                    1.32,
+                    4.445,
+                    1.965,
+                    4.445,
+                    1.965,
+                    4.565,
+                    1.32,
+                    4.565
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/84/words/0",
+                    "#/readResults/0/lines/84/words/1"
+                  ]
+                },
+                "SSN": {
+                  "type": "number",
+                  "valueNumber": 436246242,
+                  "text": "436246 2 4 2",
+                  "boundingBox": [
+                    3.75,
+                    4.445,
+                    4.855,
+                    4.445,
+                    4.855,
+                    4.565,
+                    3.75,
+                    4.565
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/85/words/0",
+                    "#/readResults/0/lines/85/words/1",
+                    "#/readResults/0/lines/85/words/2",
+                    "#/readResults/0/lines/85/words/3"
+                  ]
+                },
+                "Relationship": {
+                  "type": "string",
+                  "valueString": "Daughter",
+                  "text": "Daughter",
+                  "boundingBox": [
+                    4.92,
+                    4.445,
+                    5.41,
+                    4.445,
+                    5.41,
+                    4.57,
+                    4.92,
+                    4.57
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/lines/86/words/0"
+                  ]
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "selected",
+                  "text": "selected",
+                  "boundingBox": [
+                    6.285,
+                    4.4350000000000005,
+                    6.41,
+                    4.4350000000000005,
+                    6.41,
+                    4.5600000000000005,
+                    6.285,
+                    4.5600000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/18"
+                  ]
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "selected",
+                  "text": "selected",
+                  "boundingBox": [
+                    7.385,
+                    4.44,
+                    7.51,
+                    4.44,
+                    7.51,
+                    4.5600000000000005,
+                    7.385,
+                    4.5600000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/19"
+                  ]
+                }
+              }
+            },
+            "Third Dependent": {
+              "type": "object",
+              "valueObject": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "unselected",
+                  "text": "unselected",
+                  "boundingBox": [
+                    6.285,
+                    4.605,
+                    6.41,
+                    4.605,
+                    6.41,
+                    4.7250000000000005,
+                    6.285,
+                    4.7250000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/20"
+                  ]
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "unselected",
+                  "text": "unselected",
+                  "boundingBox": [
+                    7.385,
+                    4.605,
+                    7.51,
+                    4.605,
+                    7.51,
+                    4.7250000000000005,
+                    7.385,
+                    4.7250000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/21"
+                  ]
+                }
+              }
+            },
+            "Fourth Dependent": {
+              "type": "object",
+              "valueObject": {
+                "Name": {
+                  "type": "string"
+                },
+                "SSN": {
+                  "type": "number"
+                },
+                "Relationship": {
+                  "type": "string"
+                },
+                "ChildTaxCredit": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "unselected",
+                  "text": "unselected",
+                  "boundingBox": [
+                    6.285,
+                    4.7700000000000005,
+                    6.415,
+                    4.7700000000000005,
+                    6.415,
+                    4.8950000000000005,
+                    6.285,
+                    4.8950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/24"
+                  ]
+                },
+                "CreditForOtherDependents": {
+                  "type": "selectionMark",
+                  "valueSelectionMark": "unselected",
+                  "text": "unselected",
+                  "boundingBox": [
+                    7.385,
+                    4.7700000000000005,
+                    7.515000000000001,
+                    4.7700000000000005,
+                    7.515000000000001,
+                    4.8950000000000005,
+                    7.385,
+                    4.8950000000000005
+                  ],
+                  "page": 1,
+                  "elements": [
+                    "#/readResults/0/selectionMarks/25"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
