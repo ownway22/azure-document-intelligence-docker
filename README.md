@@ -38,6 +38,10 @@ mcr.microsoft.com/azure-cognitive-services/form-recognizer/custom-template-3.1  
 使用以下命令啟動容器，配置所需的資源限制（8 核心，16GB 記憶體）：
 
 ```powershell
+cd {C:\Users\...\azure-document-intelligence-docker}
+
+powershell -Command "Get-Content .env | ForEach-Object { if ($_ -match '^\s*([^#][^=]*)=(.*)$') { $name = $matches[1].Trim(); $value = $matches[2].Trim(); [System.Environment]::SetEnvironmentVariable($name, $value, 'Process') } }"
+
 docker run -it --rm `
   --cpus="8" `
   --memory="16g" `
@@ -46,6 +50,14 @@ docker run -it --rm `
   -e Billing=<YOUR_ENDPOINT_URI> `
   -e ApiKey=<YOUR_API_KEY> `
   mcr.microsoft.com/azure-cognitive-services/form-recognizer/custom-template-3.1:latest
+```
+
+```powershell
+cd {C:\Users\...\azure-document-intelligence-docker}
+
+powershell -Command "Get-Content .env | ForEach-Object { if ($_ -match '^\s*([^#][^=]*)=(.*)$') { $name = $matches[1].Trim(); $value = $matches[2].Trim(); [System.Environment]::SetEnvironmentVariable($name, $value, 'Process') } }"
+
+docker-compose up
 ```
 
 ### 環境變數說明
