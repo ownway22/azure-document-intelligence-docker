@@ -42,14 +42,7 @@ cd {C:\Users\...\azure-document-intelligence-docker}
 
 powershell -Command "Get-Content .env | ForEach-Object { if ($_ -match '^\s*([^#][^=]*)=(.*)$') { $name = $matches[1].Trim(); $value = $matches[2].Trim(); [System.Environment]::SetEnvironmentVariable($name, $value, 'Process') } }"
 
-docker run -it --rm `
-  --cpus="8" `
-  --memory="16g" `
-  -p 5001:5000 `
-  -e EULA=accept `
-  -e Billing=<YOUR_ENDPOINT_URI> `
-  -e ApiKey=<YOUR_API_KEY> `
-  mcr.microsoft.com/azure-cognitive-services/form-recognizer/custom-template-3.1:latest
+docker run -dit --restart unless-stopped -it -p 5001:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/form-recognizer/custom-template-3.1:latest Eula=accept Billing={your-endpoint} ApiKey={your-key}
 ```
 
 ```powershell
