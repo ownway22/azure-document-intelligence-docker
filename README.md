@@ -45,6 +45,8 @@ powershell -Command "Get-Content .env | ForEach-Object { if ($_ -match '^\s*([^#
 docker run -dit --restart unless-stopped -it -p 5001:5000 --memory 16g --cpus 8 mcr.microsoft.com/azure-cognitive-services/form-recognizer/custom-template-3.1:latest Eula=accept Billing={your-endpoint} ApiKey={your-key}
 ```
 
+或者
+
 ```powershell
 cd {C:\Users\...\azure-document-intelligence-docker}
 
